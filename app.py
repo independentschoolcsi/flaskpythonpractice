@@ -16,11 +16,6 @@ def index():
 
     return render_template('index.html', htmlgreeting = animal_greeting)
 
-# @app.route('/<animal>/<name>')
-# def users_animal(animal, name):
-#
-#     animal_greeting = create.create_animal(animal, name)
-#     return render_template('animal.html', htmlgreeting = animal_greeting)
 
 if __name__ == '__main__':
     app.run(debug=True)
