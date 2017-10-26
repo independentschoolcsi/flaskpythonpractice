@@ -6,5 +6,5 @@ class Dog(Animal):
         super().__init__(name)
 
     def speak(self):
-	    return "<h1>woof! woof!... my name is " + self.name + "!... woof! woof!<h1>"
+	    return "woof! woof!... my name is " + self.name + "!... woof! woof!"
 

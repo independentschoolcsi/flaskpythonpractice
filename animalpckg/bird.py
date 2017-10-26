@@ -6,5 +6,5 @@ class Bird(Animal):
         super().__init__(name)
 
     def speak(self):
-	    return "<h1>chirp chirp chirp!... my name is " + self.name + "!... chirp chirp chirp!<h1>"
+	    return "chirp chirp chirp!... my name is " + self.name + "!... chirp chirp chirp!"
 
