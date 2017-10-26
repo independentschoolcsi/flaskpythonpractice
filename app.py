@@ -3,6 +3,10 @@ from dog import Dog
 from bird import Bird
 app = Flask(__name__)
 
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
 @app.route('/<animal>/<name>')
 def users_animal(animal, name):
 
