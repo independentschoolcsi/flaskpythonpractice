@@ -1,6 +1,6 @@
 from flask import Flask
-from dog import Dog
-from bird import Bird
+from animalpckg.dog import Dog
+from animalpckg.bird import Bird
 app = Flask(__name__)
 
 @app.route('/')

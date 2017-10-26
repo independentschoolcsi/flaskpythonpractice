@@ -1,4 +1,4 @@
-from animal import Animal
+from animalpckg.animal import Animal
 
 class Bird(Animal):
 
